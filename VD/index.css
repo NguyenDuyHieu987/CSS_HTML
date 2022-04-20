@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: orange;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    font-size: 25px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #868585;
+}
+
+td:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(211, 214, 220, 0.398);
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
+
+table tr:nth-child(1) {
+    background-color: skyblue;
+}
+
+button {
+    font-size: 16px;
+    background: #ecf0f1;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: 2px solid #e74c3c;
+}
+
+button:hover {
+    background-color: #e74c3c;
+}
+
+button:o {
+    background-color: cornflowerblue;
+}
+
+.footer_Contact {
+    font-size: 18px;
+}
+
+#Contact_Decor {
+    font-size: 30px;
+    color: #c0392b;
+}
+
+#facebook {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+#instagram {
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+#twitter {
+    font-size: 15px;
+}
+
+#fa_png:hover img {
+    cursor: pointer;
+    filter: brightness(0);
+    -webkit-filter: brightness(0);
+}
+
+#swap_theme {
+    border-radius: 50%;
+}
