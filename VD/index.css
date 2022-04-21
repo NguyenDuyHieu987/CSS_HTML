@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-}
-
-#wrapper {
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-}
-
 h1 {
     color: orange;
 }
 
 .avatar {
+    width: 500px;
     display: block;
     margin: 0 auto;
 }
@@ -31,6 +20,14 @@ td:hover {
     cursor: pointer;
 }
 
+th {
+    padding: 12px 28px;
+}
+
+td {
+    padding: 12px;
+}
+
 table tr:nth-child(odd) {
     background-color: rgba(211, 214, 220, 0.398);
 }
@@ -43,6 +40,18 @@ table tr:nth-child(1) {
     background-color: skyblue;
 }
 
+.Input_Name {
+    font-size: 18px;
+    border: 1px solid ecf0f1(19, 37, 141);
+    border-radius: 10px;
+}
+
+.option_lop {
+    font-size: 18px;
+    border: 1px solid ecf0f1(19, 37, 141);
+    border-radius: 5px;
+}
+
 button {
     font-size: 16px;
     background: #ecf0f1;
@@ -50,33 +59,34 @@ button {
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 3px;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 12px 28px;
     border: 2px solid #e74c3c;
+    transition: all 0.25s ease;
 }
 
 button:hover {
+    cursor: pointer;
     background-color: #e74c3c;
 }
 
-button:o {
-    background-color: cornflowerblue;
-}
-
-.footer_Contact {
-    font-size: 18px;
-}
-
-#Contact_Decor {
+#ContactToMe {
     font-size: 30px;
     color: #c0392b;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#font_social {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #facebook {
     font-size: 15px;
-    margin-left: 50px;
     margin-right: 50px;
-    margin-top: 200px;
 }
 
 #instagram {
@@ -88,12 +98,6 @@ button:o {
     font-size: 15px;
 }
 
-#fa_png:hover img {
-    cursor: pointer;
-    filter: brightness(0);
-    -webkit-filter: brightness(0);
-}
-
-#swap_theme {
-    border-radius: 50%;
+#menu {
+    font-size: 30px;
 }

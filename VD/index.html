@@ -13,12 +13,19 @@
 
 <body>
     <style>
-
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+        #wrapper {
+            font-size: 20px;
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+        }
     </style>
     <div id="wrapper">
         <h1>
-            <b>Nguyễn Duy Hiếu</b>
+            Nguyễn Duy Hiếu
+
         </h1>
+        <i id="menu" class="fa-solid fa-bars"></i>
         <p>
             Lớp D15CNPM2 <br/> Lai Cách - Xuân Giang - Sóc Sơn - Hà Nội
         </p>
@@ -33,7 +40,7 @@
 
 
 
-        <img class="avatar" width="395px" src="https://wallpaperaccess.com/full/639436.jpg" alt="Lỗi!" title="Ảnh đại diện" />
+        <img class="avatar" src="https://c4.wallpaperflare.com/wallpaper/870/684/882/optimus-prime-transformers-the-last-knight-wallpaper-preview.jpg" alt="Lỗi!" title="Ảnh đại diện" />
 
         <!-- <img width="395px" src="images/639436.jpg" alt="Lỗi" title="Ảnh đại diện" /> -->
 
@@ -66,43 +73,169 @@
         <form>
             <div>
                 <br/>
-                <label>Nhập tên của bạn: </label>
-                <input type="text" placeholder="Name?">
+                <label>Nhập tên của bạn: &ensp;</label>
+                <input class="Input_Name" type="text" placeholder="Name?">
             </div>
 
             <div>
                 <br/>
-                <label>Chọn lớp</label>
-                <select>
-                <option value = "D15CNPM1">D15CNPM1</option>
-                <option value = "D15CNPM2">D15CNPM2</option>
-                <option value = "D15CNPM3">D15CNPM3</option>
-            </select>
-                <br>
+                <label>Chọn lớp: &ensp;</label>
+                <select class="option_lop">
+                    <option value = "D15CNPM1">D15CNPM1</option>
+                    <option value = "D15CNPM2">D15CNPM2</option>
+                    <option value = "D15CNPM3">D15CNPM3</option>
+                </select>
+            </div>
+
+            <div>
                 <button id="btn_TimKiem">Tìm kiếm</button>
             </div>
 
             <div>
                 <br>
-                <label>Giới tính</label>
+                <label>Giới tính: &ensp;</label>
                 <input type="radio" name="sex">Nam
                 <input type="radio" name="sex">Nữ
             </div>
         </form>
     </div>
 </body>
-<footer class="footer_Contact">
-    <p id="Contact_Decor">Contact to me
-        <a id="facebook" href="https://www.facebook.com/nguyen.d.hieu.355"><i class="fa-brands fa-facebook fa-2x"></i></a>
+<footer>
+    <p id="ContactToMe">Contact to me</p>
+    <div id="font_social">
+        <a id="facebook" href="https://www.facebook.com/nguyen.d.hieu.355"><i class="fa-brands fa-facebook fa-3x"></i></a>
 
-        <a id="instagram" href="https://www.instagram.com/hieu987gh/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a id="instagram" href="https://www.instagram.com/hieu987gh/"><i class="fa-brands fa-instagram fa-3x"></i></a>
 
-        <a id="twitter" href="https://twitter.com/Hieu_987"><i class="fa-brands fa-twitter fa-2x"></i></a>
-
-        <a href="https://www.facebook.com/nguyen.d.hieu.355"><img id="fa_png" src="images/facebook.png" alt=""></a>
-    </p>
-
-
+        <a id="twitter" href="https://twitter.com/Hieu_987"><i class="fa-brands fa-twitter fa-3x"></i></a>
+    </div>
 </footer>
 
 </html>
+
+
+
+
+
+<header class="header" id="header">
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a class="logo" title="Truyện tranh online" href="http://www.nettruyenmoi.com"><img alt="Logo NetTruyen" src="//st.nettruyenmoi.com/data/logos/logo-nettruyen.png"></a>
+                </div>
+                <div class="navbar-form navbar-left hidden-xs search-box comicsearchbox">
+                    <div class="input-group">
+                        <input type="text" class="searchinput form-control" placeholder="Tìm truyện..." autocomplete="off">
+                        <div class="input-group-btn">
+                            <input type="submit" value="" class="searchbutton btn btn-default">
+                        </div>
+                    </div>
+                </div>
+                <i class="fa fa-lightbulb-o toggle-dark"></i>
+                <div class="notifications"><a href="#" title="Thông báo"><i class="fa fa-comment"></i></a></div><button type="button" class="search-button-icon visible-xs" aria-label="Search">
+    <i class="fa fa-search"></i>
+    </button>
+                <button type="button" class="navbar-toggle" aria-label="Menu">
+    <i class="fa fa-bars"></i>
+    </button>
+            </div>
+            <script>
+                var _0xcef5 = ["\x2E\x74\x6F\x67\x67\x6C\x65\x2D\x64\x61\x72\x6B", "\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72", "\x75\x6E\x64\x65\x66\x69\x6E\x65\x64", "\x63\x6C\x61\x73\x73\x4C\x69\x73\x74", "\x70\x72\x6F\x74\x6F\x74\x79\x70\x65", "\x63\x6C\x61\x73\x73", "\x66\x61\x20\x66\x61\x2D\x6C\x69\x67\x68\x74\x62\x75\x6C\x62\x2D\x6F\x20\x6F\x6E\x20\x74\x6F\x67\x67\x6C\x65\x2D\x64\x61\x72\x6B", "\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65", "\x64\x61\x72\x6B", "\x63\x6F\x6E\x74\x61\x69\x6E\x73", "\x62\x6F\x64\x79", "\x61\x64\x64", "\x66\x61\x20\x66\x61\x2D\x6C\x69\x67\x68\x74\x62\x75\x6C\x62\x2D\x6F\x20\x74\x6F\x67\x67\x6C\x65\x2D\x64\x61\x72\x6B", "\x72\x65\x6D\x6F\x76\x65", "\x64\x61\x72\x6B\x2D\x74\x68\x65\x6D\x65", "\x63\x6C\x69\x63\x6B", "\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65", "\x72\x65\x6D\x6F\x76\x65\x49\x74\x65\x6D", "\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72", "\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65", "\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64"];
+                var toggleDarkObj = document[_0xcef5[1]](_0xcef5[0]);
+                if (_0xcef5[2] != typeof Storage && _0xcef5[3] in Element[_0xcef5[4]] == 1) {
+                    function setDarkTheme(_0x5e49x3, _0x5e49x4) {
+                        1 == _0x5e49x4 ? (_0x5e49x3[_0xcef5[7]](_0xcef5[5], _0xcef5[6]), document[_0xcef5[10]][_0xcef5[3]][_0xcef5[9]](_0xcef5[8]) || document[_0xcef5[10]][_0xcef5[3]][_0xcef5[11]](_0xcef5[8])) : (_0x5e49x3[_0xcef5[7]](_0xcef5[5], _0xcef5[12]), document[_0xcef5[10]][_0xcef5[3]][_0xcef5[9]](_0xcef5[8]) && document[_0xcef5[10]][_0xcef5[3]][_0xcef5[13]](_0xcef5[8]))
+                    }
+                    void(0) !== localStorage[_0xcef5[14]] && setDarkTheme(toggleDarkObj, !0), toggleDarkObj[_0xcef5[18]](_0xcef5[15], function(_0x5e49x3) {
+                        _0xcef5[12] == this[_0xcef5[16]](_0xcef5[5]) ? (setDarkTheme(this, !0), localStorage[_0xcef5[14]] = 1) : (setDarkTheme(this, !1), void(0) !== localStorage[_0xcef5[14]] && localStorage[_0xcef5[17]](_0xcef5[14]))
+                    })
+                } else {
+                    toggleDarkObj[_0xcef5[19]] && toggleDarkObj[_0xcef5[19]][_0xcef5[20]](toggleDarkObj)
+                }
+            </script>
+            <ul class="nav-account list-inline hidden-xs pull-right">
+                <li class="login-link"><a rel="nofollow" href="https://www.nettruyenmoi.com/Secure/Login.aspx?returnurl=%2Ftruyen-tranh%2Fanh-hung-onepunch-4389">Đăng nhập</a></li>
+                <li class="register-link"><a rel="nofollow" href="http://www.nettruyenmoi.com/Secure/Register.aspx?returnurl=%2Ftruyen-tranh%2Fanh-hung-onepunch-4389">Đăng ký</a>
+                    <script>
+                        var globalOpts = {};
+                        globalOpts.token = 'Cbo5qjYxGPoPBuiGA32eGgSAQkrZhS9C8/Ap08Ygrnk=';
+                    </script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div id="ctl00_divCenter" class="center-side col-md-8">
+            <ul class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="http://www.nettruyenmoi.com" class="itemcrumb" itemprop="item" itemtype="http://schema.org/Thing"><span itemprop="name">Trang chủ</span></a>
+                    <meta itemprop="position" content="1">
+                </li>
+                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="http://www.nettruyenmoi.com/tim-truyen" class="itemcrumb" itemprop="item" itemtype="http://schema.org/Thing"><span itemprop="name">Thể loại</span></a>
+                    <meta itemprop="position" content="2">
+                </li>
+                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="http://www.nettruyenmoi.com/truyen-tranh/anh-hung-onepunch-43890" class="itemcrumb active" itemprop="item" itemtype="http://schema.org/Thing"><span itemprop="name">Anh Hùng OnePunch</span></a>
+                    <meta itemprop="position" content="3">
+                </li>
+            </ul>
+            <article id="item-detail">
+                <h1 class="title-detail">Anh Hùng OnePunch</h1>
+                <time class="small">
+    [Cập nhật lúc: 10:00 07/04/2022]
+    </time>
+                <div class="detail-info">
+                    <div class="row">
+                        <div class="col-xs-4 col-image">
+                            <img src="//st.nettruyenmoi.com/data/comics/37/anh-hung-onepunch.jpg" alt="Anh Hùng OnePunch">
+                        </div>
+                        <div class="col-xs-8 col-info">
+                            <ul class="list-info">
+                                <li class="author row">
+                                    <p class="name col-xs-4">
+                                        <i class="fa fa-user">
+    </i> Tác giả
+                                    </p>
+                                    <p class="col-xs-8"><a href="http://www.nettruyenmoi.com/tim-truyen?tac-gia=ONE">ONE</a> - <a href="http://www.nettruyenmoi.com/tim-truyen?tac-gia=Murata+Yuusuke">Murata Yuusuke</a></p>
+                                </li>
+                                <li class="status row">
+                                    <p class="name col-xs-4">
+                                        <i class="fa fa-rss">
+    </i> Tình trạng
+                                    </p>
+                                    <p class="col-xs-8">Đang tiến hành</p>
+                                </li>
+                                <li class="kind row">
+                                    <p class="name col-xs-4">
+                                        <i class="fa fa-tags">
+    </i> Thể loại
+                                    </p>
+                                    <p class="col-xs-8"><a href="http://www.nettruyenmoi.com/tim-truyen/action">Action</a> - <a href="http://www.nettruyenmoi.com/tim-truyen/comedy-99">Comedy</a> - <a href="http://www.nettruyenmoi.com/tim-truyen/manga-112">Manga</a></p>
+                                </li>
+                                <li class="row">
+                                    <p class="name col-xs-4">
+                                        <i class="fa fa-eye">
+    </i> Lượt xem
+                                    </p>
+                                    <p class="col-xs-8">88.136.153</p>
+                                </li>
+                            </ul>
+                            <div class="mrt5 mrb10" itemscope="" itemtype="http://schema.org/Book">
+                                <a href="http://www.nettruyenmoi.com/truyen-tranh/anh-hung-onepunch-43890">
+                                    <span itemprop="name">Anh Hùng OnePunch</span>
+                                </a>
+                                <span itemprop="aggregateRating" itemscope="" itemtype="https://schema.org/AggregateRating"> Xếp hạng: <span itemprop="ratingValue">4.2</span>/5 - <span itemprop="ratingCount">95644</span> Lượt đánh giá.</span>
+                            </div>
+                            <div class="row rating">
+                                <div class="col-xs-6">
+                                    <div class="star" data-id="4389" data-rating="4.2" data-allowrating="true" style="cursor: pointer;"><img src="http://st.nettruyenmoi.com/Data/Sites/1/skins/comic/images/star-on.png" alt="1" title="bad">&nbsp;<img src="http://st.nettruyenmoi.com/Data/Sites/1/skins/comic/images/star-on.png" alt="2" title="poor">&nbsp;
+                                        <img
+                                            src="http://st.nettruyenmoi.com/Data/Sites/1/skins/comic/images/star-on.png" alt="3" title="regular">&nbsp;<img src="http://st.nettruyenmoi.com/Data/Sites/1/skins/comic/images/star-on.png" alt="4" title="good">&nbsp;<img src="http://st.nettruyenmoi.com/Data/Sites/1/skins/comic/images/star-off.png" alt="5" title="gorgeous">
+                                            <input
+                                                type="hidden" name="score" value="4.2"></div>
+                                </div>
+                                <div class="col-xs-6 lazy-module" data-type="facebook" style="overflow:hidden">
+                                    <div data-share="true" data-show-faces="true" data-action="like" data-layout="button_count" class="fb-like fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=745819368841087&amp;container_width=0&amp;href=http%3A%2F%2Fwww.nettruyenmoi.com%2Ftruyen-tranh%2Fanh-hung-onepunch-43890&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true"
+                                        data-href="http://www.nettruyenmoi.com/truyen-tranh/anh-hung-onepunch-43890"><span style="vertical-align: bottom; width: 150px; height: 28px;"><iframe name="f3abf43c7fbec9" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.0/plugins/like.php?action=like&amp;app_id=745819368841087&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df39df0c820d9334%26domain%3Dwww.nettruyenmoi.com%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.nettruyenmoi.com%252Ff18446cdf6c099c%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fwww.nettruyenmoi.com%2Ftruyen-tranh%2Fanh-hung-onepunch-43890&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true" style="border: none; visibility: visible; width: 150px; height: 28px;" cl
